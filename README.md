@@ -8,3 +8,4 @@
 - [TLS，HTTPS区别](tls-https.md)
 - [证书](ca.md)
 - [Redis](redis.md)
+- [Mysql](mysql.md)
