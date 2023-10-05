@@ -9,3 +9,4 @@
 - [证书](ca.md)
 - [Redis](redis.md)
 - [Mysql](mysql.md)
+- [Linux命令](linux.md)
