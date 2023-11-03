@@ -11,3 +11,4 @@
 - [Redis](redis.md)
 - [Mysql](mysql.md)
 - [Linux命令](linux.md)
+- [小程序](mini-program.md)
