@@ -14,3 +14,4 @@
 - [小程序](mini-program.md)
 - [git](git.md)
 - [收藏夹](collect.md)
+- [插件](plugin.md)
