@@ -84,3 +84,20 @@ func main() {
 https://cloud.tencent.com/developer/article/2270893
 
 
+```
+go env 
+// GOPATH 指定了 Go 语言工作区的路径，它包含了你的项目源代码、依赖库以及编译后的可执行文件等
+GOPATH
+pkg
+bin 
+src
+// GOROOT 指定了 Go 工具链的安装路径，它包含了 Go 语言的标准库、编译器等工具
+GOROOT
+
+import "fmt" // 这里的"fmt"是标准库package fmt所在的路径"$GOROOT/src/fmt/"  不是指package fmt本身包名(所谓的巧合,正好一致而已)
+
+标准库包: 源码在$GOROOT/src下
+第三方依赖包: 源码在$GOPATH/src下
+```
+
+
