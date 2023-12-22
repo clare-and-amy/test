@@ -1,7 +1,7 @@
 alpine && debian
 ```
 alpine 
-apk add xxx
+apk add busybox-extras(telnet)
 docker exec -it gocron /bin/sh // 这里是sh
 docker exec -it --user=root sh
 
