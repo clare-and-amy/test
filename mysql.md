@@ -19,3 +19,6 @@ GROUP BY saler_id
 ORDER BY COUNT DESC
 LIMIT 30
 ```
+
+### mysql在Linux下安装
+[传送门]("https://blog.csdn.net/weixin_52850476/article/details/122800696")
