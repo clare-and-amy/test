@@ -4,6 +4,9 @@
 watch -n 1 'free -m'
 ```
 
+## swap 妙用
+https://cloud.tencent.com/developer/article/1562033
+
 ## systemd
 > 历史上，Linux 的启动一直采用init进程
 ```bash
