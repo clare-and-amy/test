@@ -20,5 +20,12 @@ ORDER BY COUNT DESC
 LIMIT 30
 ```
 
+授权
+```
+CREATE USER 'zamiss'@'%' IDENTIFIED BY 'rDdmew15oFkH0Ahi';
+GRANT ALL ON *.* TO 'zamiss'@'%';
+
+```
+
 ### mysql在Linux下安装
 [传送门]("https://blog.csdn.net/weixin_52850476/article/details/122800696")
