@@ -18,3 +18,11 @@ git reset --hard HEAD~10^
 ```
 
 git reset --hard HEAD^ 回退到上一个版本，HEAD^表示当前版本的父版本，HEAD~10表示当前版本的第10个父版本，HEAD~1
+
+### 删除已加入到git库中的文件
+```
+    git rm --cached <file>
+    vim .gitignore
+    git commit -m "add .gitignore"
+    git push origin master
+```
