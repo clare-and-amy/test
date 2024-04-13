@@ -2,6 +2,8 @@
 
 ### grid
 [阮一峰grid](https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html)
+默认item是block属性，但是当box加了justify-items，align-items，place-items（start，end，center，其中值为stretch：拉伸，占满单元格的整个宽度（默认值））
+它的子元素就回变成inline-block属性
 ```
 <style>
     .box1 {
