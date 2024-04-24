@@ -62,6 +62,19 @@ const rules = {[
       trigger: "blur",
   }
 ]}
+
+
+// 保存的时候验证
+const save = () => {
+  refForm.value.validate((valid) => {
+    if(valid === false) {
+      ElMessage({
+        type: "error",
+        message: "请填写完整",
+      });
+    }
+  });
+}
 </script>
 ```
 
