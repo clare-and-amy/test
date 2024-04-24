@@ -3,7 +3,7 @@ vite+vue3
 yarn create vite my-vue-app --template vue
 ```
 
-### 模板 component
+### 模板 component (defineProps, defineEmits)
 ```
 # 父页面 index.vue
 <template>
@@ -42,3 +42,35 @@ const add = () => {
 </script>
 ```
 更多用法 ： [参考链接](https://juejin.cn/post/7197970175479611451)
+
+
+### Element-plus 验证
+```
+<el-form :model="form" :rules="rules" ref="form">
+  <el-form-item label="用户名" prop="username">这里其实也可以绑定rules.username</el-form-item>
+</el-form>
+
+<script setup>
+const form = ref(null)
+const form = reactive({
+  username: '',
+})
+const rules = {[
+  username: {
+    required: true,
+      message: "密码必填",
+      trigger: "blur",
+  }
+]}
+</script>
+```
+
+### watch 监听
+```
+import { watch } from 'vue';
+
+// 监听多个
+watch(() => [props.images], (newValue, oldValue) =>{
+    data.selected = newValue[0];
+}, { immediate: true, deep: true })
+```
