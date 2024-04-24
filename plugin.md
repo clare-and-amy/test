@@ -8,3 +8,5 @@
 4. Vue 3 Snippets // v3 代码语法提示
 5. Vue - Official // vue 官方工具
 6. Prettier - Code formatter // 代码格式化 `ctrl+shift+p`  `format document`
+
+7. Markdown Preview Enhanced (markdown文件查看)
