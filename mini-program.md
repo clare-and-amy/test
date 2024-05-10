@@ -20,7 +20,10 @@ badge：数字显示在图标上方的红色小圆点，用于表示未读消息
 1. 在pages.json中配置
 {
     "tabBar": {
-		"custom": true
+		"custom": true,
+        "list": [
+            ... // 理论上这里可以没有，但是也要填，不然会报错，并且建议跟自定义的保持一致，因为涉及到switchTab还是navigateTo
+        ]
     }
 }
 ```
