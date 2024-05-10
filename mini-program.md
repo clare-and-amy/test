@@ -15,7 +15,15 @@ badge：数字显示在图标上方的红色小圆点，用于表示未读消息
 ```
 
 ### 小程序底部
-
+#### 自定义tabBar
+```
+1. 在pages.json中配置
+{
+    "tabBar": {
+		"custom": true
+    }
+}
+```
 
 ### 小程序怎么构建组件
 [参考](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)
