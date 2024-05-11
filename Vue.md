@@ -4,6 +4,7 @@ yarn create vite my-vue-app --template vue
 ```
 
 ### 模板 component (defineProps, defineEmits)
+[参考官方](https://cn.vuejs.org/guide/components/props.html)
 ```
 # 父页面 index.vue
 <template>
