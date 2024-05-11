@@ -87,3 +87,7 @@ watch(() => [props.images], (newValue, oldValue) =>{
     data.selected = newValue[0];
 }, { immediate: true, deep: true })
 ```
+
+### promise
+[掘金](https://juejin.cn/post/7011755708496478215)
+[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
