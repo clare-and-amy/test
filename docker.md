@@ -6,6 +6,12 @@
 docker-php-ext-install  pdo pdo_mysql  
 docker-php-ext-install  zip
 
+
+
+# reids扩展
+redis扩展下载地址：https://pecl.php.net/package/redis
+docker cp redis-5.3.4 php:/usr/src/php/ext/redis
+docker-php-ext-install redis                    
 ```
 
 ### linux 安装fileinfo
